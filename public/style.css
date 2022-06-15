@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    height: 100%;
+    }
+    #video-grid {
+        
+        display: grid;
+        height: 100%;
+        width: 98%;
+        grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
+        grid-gap:1%;
+        grid-auto-flow: column;
+    }
+    
+    .two-boxes{
+        display:flex;
+        flex-direction: row;
+    }
+    .box1{width:80%;
+    
+    }
+    .box2{
+        box-shadow:-0px 0px 15px black;
+        border-radius: 25px;
+        background-color: white;
+        height:98%;
+        width:18%;
+        margin: auto;
+        display: flex;
+        flex-direction:column-reverse;
+        /* margin: auto; */
+    }
+    #chat-box{
+        border: 1px solid;
+        background-color: white;
+        height:100%;
+        width:75%;
+        display: flex;
+        align-self: center;
+        border-radius: 25px;
+        
+        
+    }
+    .sender{
+        height:fit-content;
+        display: flex;
+        flex-direction:row;
+        margin:2%;
+    }
+    
+    .btn{
+        width: 20%;
+        height:100%;
+        border-radius: 25px;
+    }
+    video {
+        background-color: black;
+        height: 90%;
+        max-height: 26rem;
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 1%;
+        margin-right: 2%;
+        float: right;
+        box-shadow:-0px 0px 15px black;
+        border-radius: 25px;
+    }
+    
+    .box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .topbox {
+    
+        height: 8%;
+        width:98%;
+        align-self: center;
+        color: white;
+        background-color: aqua;
+        border-radius: 25px;
+        
+    }
+    .grid{
+        margin:1%;
+        margin-bottom: 0%;
+        height: 70%;
+        width: 98%;
+        background-color: white;
+        border-width: 100px;
+        box-shadow:-0px 0px 15px black;
+        
+        border-radius: 25px;
+    }
+    .bottombox{
+        margin:1%;
+        height: 20%;
+        width: 98%;
+        background-color: white;
+        box-shadow:-0px 0px 15px black;
+        display: flex;
+        flex-direction: row;
+        }
+    .timer{
+    
+        float: right;
+        display: flex;
+        margin-right: 5%;
+        
+    }
+    #self{
+        
+        margin-top: 0.5%;
+        
+        margin-right: 0.5%;
+        background-color: white;
+        height: 92%;
+        width: 20%;
+    
+        
+    }
+    #button{
+    
+        background-color: white;
+        height: fit-content;
+        width: 20%;
+        margin: auto;
+        box-shadow:-0px 0px 15px black;
+        border-radius: 25px;
+        align-items: center;
+        text-align: center;
+        
+    
+    
+    }
+    #svideo,#mute,#share_screen{
+    
+        background-color: white;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        box-shadow:-0px 0px 15px black;
+        border-radius: 25px;
+        height:fit-content;
+    
+    }
+    #svideo:hover,#mute:hover,#button:hover,#share_screen:hover{
+        color:white;
+        background-color: grey;
+    }
+    
+    .button1{
+    
+        background-color: white;
+        height: 10%;
+        width: 10%;
+        margin: auto;
+        box-shadow:-0px 0px 15px black;
+        border-radius: 25px;
+    
+    }
+    #messages{
+        
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .message{
+        height:fit-content
+    }
